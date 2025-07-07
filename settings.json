@@ -39,6 +39,14 @@
       "commands": ["workbench.view.explorer"]
     },
     {
+      "before": ["<leader>", "c", "a"],
+      "commands": ["rainbow-csv.Align"]
+    },
+    {
+      "before": ["<leader>", "c", "s"],
+      "commands": ["rainbow-csv.Shrink"]
+    },
+    {
       "before": ["<leader>", "s", "c"],
       "commands": ["workbench.view.extension.containersView"]
     },
@@ -87,8 +95,8 @@
   },
   "workbench.activityBar.location": "bottom",
   "window.menuBarVisibility": "compact",
-  "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "chat.commandCenter.enabled": false,
   "editor.minimap.enabled": false,
+  "window.commandCenter": false,
 }
