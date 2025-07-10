@@ -16,7 +16,16 @@
 {"key": "ctrl+.",
 "command": "-editor.action.quickFix"},
 {"key": "ctrl+.",
-"command": "workbench.action.nextEditor"}
+"command": "workbench.action.nextEditor"
+},
+{
+"key": "ctrl+alt+=",
+"command": "workbench.action.increaseViewWidth"
+},
+{
+    "key": "ctrl+alt+[Minus]",
+    "command": "workbench.action.decreaseViewWidth"
+}
 
 
  
