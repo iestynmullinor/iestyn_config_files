@@ -88,6 +88,10 @@
     {
       "before": ["<leader>", "h"],
       "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": ["<leader>", "q", "f"],
+      "commands": ["editor.action.quickFix"]
     }
   ],
   "[java]": {
