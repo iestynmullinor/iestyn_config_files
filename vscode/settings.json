@@ -58,10 +58,6 @@
       "commands": ["workbench.action.chat.openInEditor"]
     },
     {
-      "before": ["<leader>", "t"],
-      "commands": ["workbench.action.terminal.toggleTerminal"]
-    },
-    {
       "before": ["<leader>", "x"],
       "commands": ["workbench.action.closeActiveEditor"]
     },
@@ -88,6 +84,34 @@
     {
       "before": ["<leader>", "h"],
       "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": ["<leader>", "q", "f"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["<leader>", "o"],
+      "commands": ["editor.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "p", "n"],
+      "commands": ["editor.action.marker.nextInFiles"]
+    },
+    {
+      "before": ["<leader>", "p", "p"],
+      "commands": ["editor.action.marker.prevInFiles"]
+    },
+    {
+      "before": ["<leader>", "t", "f"],
+      "commands": ["workbench.action.gotoSymbol"]
+    },
+    {
+      "before": ["<leader>", "t", "w"],
+      "commands": ["workbench.action.showAllSymbols"]
+    },
+    {
+      "before": ["<leader>", "y", "f"],
+      "commands": [":%y+"]
     }
   ],
   "[java]": {
@@ -99,4 +123,5 @@
   "chat.commandCenter.enabled": false,
   "editor.minimap.enabled": false,
   "window.commandCenter": false,
+  "go.toolsManagement.autoUpdate": true,
 }
