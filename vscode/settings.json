@@ -112,7 +112,12 @@
     {
       "before": ["<leader>", "y", "f"],
       "commands": [":%y+"]
-    }
+    },
+    {
+      "before": ["<leader>", "r", "n"],
+      "commands": ["editor.action.rename"]
+    },
+
   ],
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
