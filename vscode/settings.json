@@ -91,7 +91,7 @@
     },
     {
       "before": ["<leader>", "o"],
-      "commands": ["editor.action.quickOpen"]
+      "commands": ["workbench.action.quickOpen"]
     },
     {
       "before": ["<leader>", "p", "n"],
